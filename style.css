@@ -1,0 +1,21 @@
+body {
+    background: white;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  
+  table{
+    border-color: #000000;
+  }
+  
+  .table-project{
+    background: #f0f0f0;
+  }
+  
+  .table-assessment{
+    background: #f2f0f0;
+  }
