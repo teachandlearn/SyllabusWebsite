@@ -8,16 +8,12 @@ h1 {
     font-weight: bold;
 }
 
-table{
-    border-color: #000000;
-}
-
 .table-project{
-    background: #f0f0f0;
+    background: #6e6c6c;
 }
 
 .table-assessment{
-    background: #f2f0f0;
+    background: #706e6e;
 }
 
 caption {
@@ -25,6 +21,10 @@ caption {
     caption-side: bottom;
 }
 
+td, th {
+    border: 1px solid rgb(0,0,0);
+    
+}
 table {
     border-collapse: collapse;
     border: 2px solid rgb(0, 0, 0);
