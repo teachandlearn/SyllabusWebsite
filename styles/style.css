@@ -33,6 +33,7 @@ h1 {
 
 nav, footer {
     clear: both;
+    
     color: #ffffff;
     background-color: #aeaca8;
     height: 30px;
@@ -59,13 +60,14 @@ nav li a:hover{
 #content {
     float: left;
     width: 659px;
-    border-right: 1pxsolid #eeeeee;
+    border-right: 1pxsolid #777;
 }
 
 article {
     clear: both;
     overflow: auto;
     width: 100%;
+    padding: 30px 0px 10px 0px;
 }
 
 hgroup{
@@ -148,11 +150,22 @@ td, th {
     border: 1px solid #000000;  
 }
 
+th {
+    background-color: #de6581;
+    color: white;
+    padding: 15px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #de6581;
+    border-left-color: #de6581;
+    border-right-color: #de6581;
+}
+
 table {
     border-collapse: collapse;
-    border: 2px solid #000000;
     letter-spacing: 1px;
     font-family: sans-serif;
     font-size: .8rem;
+    border-spacing: 0;
 }
-
